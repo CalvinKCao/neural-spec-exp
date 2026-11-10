@@ -40,9 +40,8 @@ on a small network trained on the breast cancer dataset (32 neurons) across five
 
 The exact solver hit its 5 minute limit on every neuron it kept, so its
 pattern sizes are upper bounds, and I can't say which neurons are truly
-essential. I couldn't compare the two verifiers' "minimal" patterns directly.
-Test sets are small and there are only five seeds, so differences
-are weak evidence. This is one small network and one dataset.
+essential. I couldn't compare the two verifiers "minimal" patterns directly.
+Test sets are small and there are only five seeds. As such, it's weak evidence. This is one small network and one dataset.
 
 ## Next steps
 
