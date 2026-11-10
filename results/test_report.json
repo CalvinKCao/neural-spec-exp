@@ -1,0 +1,112 @@
+{
+ "T1_points": 50,
+ "lp_coarsen_runs": {
+  "1": {
+   "delta": 0.95,
+   "size": 8,
+   "calls": 110
+  }
+ },
+ "corpus_time_s": 2425.2355527710024,
+ "corpus_size": 538,
+ "T2": {
+  "n_base": 269,
+  "lp_verified": 141,
+  "lp_verified_tested": 141,
+  "exact_timeouts": 25,
+  "gap_lp_nv_exact_v": 48,
+  "exact_verified": 189,
+  "unsound": 0
+ },
+ "T3_covered_examples_checked": 125332,
+ "T4": {
+  "lp": {
+   "pairs": 269,
+   "coarse_verified": 141
+  },
+  "feas": {
+   "pairs": 269,
+   "coarse_verified": 189
+  }
+ },
+ "T5": {
+  "lp_c1": {
+   "size": 8
+  },
+  "milp_c1": {
+   "size": 6,
+   "recheck_timeouts": 5,
+   "coarsen_timeouts": 6,
+   "verifies_on_recheck_after_coarsen_timeout": [
+    123
+   ],
+   "calls": 110,
+   "time": 732.0443971749992
+  }
+ },
+ "T7": {
+  "n": 269,
+  "compared_feas_vs_opt": 131,
+  "disagree_feas_vs_opt": 0,
+  "timeouts_feas": 25,
+  "timeouts_opt": 136,
+  "compared_casc_vs_ref": 244,
+  "disagree_casc_vs_ref": 0,
+  "cascade_stage_counts": {
+   "milp": 128,
+   "lp": 141
+  },
+  "lp_vs_lp_plain_disagree": 0,
+  "casc_timeouts": 24,
+  "t_feas_total": 1896.8578506849517,
+  "t_opt_total": 9410.862817389949,
+  "t_casc_total": 1899.1231065739994
+ },
+ "T8": {
+  "real_net_c0": {
+   "fast": {
+    "bound_lp": 2560,
+    "bound_lp_skipped": 0,
+    "cache_lookups": 240,
+    "cache_hits": 164,
+    "final_lp": 30,
+    "t_bounds": 14.155553746997612,
+    "t_final": 0.3878255279996665,
+    "empty": 0
+   },
+   "unstable_compared": 1989
+  },
+  "real_net_c1": {
+   "fast": {
+    "bound_lp": 1560,
+    "bound_lp_skipped": 0,
+    "cache_lookups": 240,
+    "cache_hits": 168,
+    "final_lp": 30,
+    "t_bounds": 7.499119516003702,
+    "t_final": 0.36309120198711753,
+    "empty": 0
+   },
+   "unstable_compared": 1292
+  },
+  "synthetic": {
+   "fast": {
+    "bound_lp": 768,
+    "bound_lp_skipped": 86,
+    "cache_lookups": 302,
+    "cache_hits": 218,
+    "final_lp": 26,
+    "t_bounds": 1.7805988779800828,
+    "t_final": 0.08562017597432714,
+    "empty": 84
+   },
+   "unstable_compared": 415
+  },
+  "trajectory": {
+   "cls": 1,
+   "calls": 110,
+   "t_fast": 6.193901268998161,
+   "t_plain": 51.01018623999698
+  }
+ }
+}

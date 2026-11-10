@@ -1,0 +1,5 @@
+verifier,calls,total_s,per_call_s,timeouts,bound_lps_run,bound_lps_skipped_by_prefilter,cache_hit_rate,cascade_stages
+MILP reference,110,1933.0,17.573,3,1044,0,0.82,
+cascade (variant),110,1934.1,17.583,3,1044,0,0.84,"{'lp': 81, 'lp_cex': 0, 'milp': 29}"
+LP,110,7.6,0.069,0,1044,0,0.82,
+LP plain,110,103.5,0.94,0,30110,0,0.0,

@@ -1,0 +1,6 @@
+seed,cls,lp_pins,exact_pins,lp_minus_exact,exact_minus_lp,jaccard,exact_pins_refuted_by_counterexample,exact_pins_timeout_only,lp_calls,lp_wall,exact_calls,exact_wall,exact_timeouts
+0,1,8,3,6,1,0.222,0,3,110,7.6,110,1933.0,3
+1,0,11,5,10,4,0.067,0,5,102,18.2,102,3958.4,5
+2,0,15,8,11,4,0.211,0,8,101,22.4,101,3813.2,8
+3,1,9,6,6,3,0.25,0,6,99,26.8,99,4411.4,6
+4,0,30,3,27,0,0.1,0,3,99,80.3,99,3476.4,3

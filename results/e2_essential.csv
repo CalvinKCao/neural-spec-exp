@@ -1,0 +1,6 @@
+seed,cls,n_lp_orders,lp_union,lp_intersection,n_exact_orders,exact_union,exact_intersection,exact_intersection_refuted_every_time,relaxation_essential,robustly_essential,robustly_essential_strict,lp_intersection_set,exact_union_set,exact_intersection_set
+0,1,23,92,1,3.0,12.0,0.0,0.0,[],[],[],[115],"[6, 29, 37, 39, 99, 106, 107, 115, 117, 119, 126, 127]",[]
+1,0,23,85,0,,,,,,,,,,
+2,0,23,89,0,,,,,,,,,,
+3,1,23,82,2,,,,,,,,,,
+4,0,9,83,2,,,,,,,,,,
